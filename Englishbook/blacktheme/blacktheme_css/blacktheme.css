@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #000;
+}
+
+
+#block {
+	margin: 0 auto;
+	height: 700px;
+	width: 300px;
+	background: black;
+}
+nav {
+	width: 300px;
+	height: 50px;
+	background: black;
+}
+nav ul {
+	list-style: none;
+
+}
+h3 {
+	color: white;
+}
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	float: left;
+	display: block;
+}
+.Logo {
+	color: white;
+	font-size: 30px;
+	margin: 3px 5px;
+	font-family: Forte;
+}
+.download {
+	text-decoration: none;
+	color: white;
+	margin:15px 0;
+	transition-duration: 0.3s;
+}
+.download:hover {
+	color: blue;
+}
+
+footer {
+	height: 30px;
+	width: 500px;
+	background: #eee5;
+}
+footer p {
+	color: white;
+	text-align: center;
+}
